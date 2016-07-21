@@ -1,0 +1,52 @@
+book_id,title,author,genre,color,finished,status
+1,Rendezvous with Rama,Arthur C Clarke,Science fiction,black,no,to read
+2,Lemistry,various,Science fiction,black,yes,no
+3,The Professor and the Madman,Simon Winchester,Historical non-fiction,black,yes,no
+4,The Door Into Summer,Robert A Heinlein,Science fiction,black,yes,to read
+5,Something Wicked this way Comes,Ray Bradbury,Science fiction,black,no,to read
+6,Dune,Frank Herbert,Science fiction,black,no,to read
+7,Miss Lonelyhearts/Day of the Locust,Nathanael West,Fiction,black,yes,no
+8,On the Road,Jack Kerouac,Fiction,black,no,no
+9,Old Man's War,John Scalzi,Science fiction,black,yes,to read
+10,Shadow Puppets,Orson Scott Card,Science fiction,black,no,to read
+11,Shadow of the Giant,Orson Scott Card,Science fiction,black,yes,no
+12,"For Us, the Living",Robert A Heinlein,Science fiction,black,no,to read
+13,The Glass Menagerie,Tennessee Williams,Play,black,no,no
+14,The Philosophy of Time,"Robin Le Poidevine, Murray MacBeath",Philosophy,black,no,to read
+15,Fahrenheit 451,Ray Bradbury,Science fiction,black,no,to read
+16,Rocket Ship Gallileo,Robert A Heinlein,Science fiction,black,no,to read
+17,Citizen of the Galaxy,Robert A Heinlein,Science fiction,black,no,to read
+18,The Moon is a Harsh Mistress,Robert A Heinlein,Science fiction,black,no,to read
+19,The Maze Runner,James Dashner,Science fiction,green,no,to read
+20,"Collected Poems of Allen Ginsberg, 1947-1997",Allen Ginsberg,Poetry,white,no,to read
+21,Oranges,John McPhee,nonfiction,white,no,to read
+22,The Vintage Bradbury,Ray Bradbury,Science fiction,white,no,to read
+23,IQ84,Haruki Murakami,Science fiction,white,no,to read
+24,Bursts,Albert Laszlo Barabasi,Scientific nonfiction,white,yes,to read
+25,The Word for World is Forest,Ursula K Le Guin,Science fiction,white,no,to read
+26,Stories of Ibis,Hiroshi Yamamoto,Science fiction,white,yes,to read
+27,"The Changeling, hardcover",Kenzaburo Oe,Fiction,white,yes,no
+28,"The Changeling, softcover",Kenzaburo Oe,Fiction,white,no,to read
+29,"Physics, Philosophy, and Theology","Russel, Stoeger, Coyne",Science,white,no,to read
+30,Jurassic Park | The Lost World,Michael Crichton,Science fiction,white,yes,to read
+31,Bowling Fundamentals,Mullen,Informative,white,no,no
+32,Introduction to High Performance Blending,vitamix,Cook book,white,no,no
+33,The Elements of Pop-Up,"Carter, Diaz",Informative,white,yes,no
+34,The Work of Art in the Age of its Technological Repoducibility and other Writings on Media,Walter Benjamin,nonfiction,white,no,to read
+35,The World is Flat,Thomas Friedman,nonfiction,white,no,to read
+36,blink,Malcolm Gladwell,nonfiction,white,no,to read
+37,The Tipping Point,Malcolm Gladwell,nonfiction,white,no,to read
+38,What the Dog Saw,Malcolm Gladwell,nonfiction,white,no,to read
+39,More than a Score,Jesse Hagopian,nonfiction,white,no,no
+40,"Sex, Drugs, and Cocoa Puffs",Chuck Klosterman,nonfiction,white,no,to read
+41,Austerlitz,WG Sebald,fiction,white,no,to read
+42,The Glass Palace,Amitav Ghosh,Fiction,white,no,to read
+43,Alan Turing,Andrew Hodges,biography,white,no,to read
+44,7 Types of Ambiguity,William Epsom,Informative,white,no,to read
+45,Travels in Four Dimensions,Le Poidevin,Philosophy,white,no,to read
+46,The Good Book: a Humanist Bible,AC Grayling,Philosophy,white,no,to read
+47,Confessions of a Mask,Yukio Mishima,Fiction,white,no,to read
+48,Shadow of the Hedgemon,Orson Scott Card,Science fiction,white,no,to read
+49,The Cat who Walks through Walls,Robert A Heinlein,Science fiction,white,no,to read
+50,Sceptical Essays,Bertrand Russel,Philosophy,white,no,to read
+51,Green Lantern: No Fear,"Johns, Pacheco, Van Sciver",Graphic Novel,white,no,to read
