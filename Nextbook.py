@@ -46,8 +46,6 @@ if __name__ == '__main__':
     elif user_input == 'no':
         break
     
-    #if user_input in NextBook.day_dict.keys():
-        #print(NextBook.what_book())
     elif user_input == 'end'.lower():
         break
 
