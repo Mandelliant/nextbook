@@ -9,11 +9,6 @@ Created on Fri May 20 14:57:03 2016
 import csv
 import random
 
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-# Method using Class
-
 class Book(object):
 
     def __init__(self):
@@ -31,10 +26,10 @@ class Book(object):
               x = x + row['title']+ ' ' + 'by' + ' ' + row['author']+'\n'+'\n'
           return random.choice(x)          
           f.close()
-      #def new_book(self, book):
+      
           
           
-# Initiating the Class
+
 NextBook = Book()
 
 if __name__ == '__main__':
