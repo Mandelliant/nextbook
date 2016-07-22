@@ -15,13 +15,13 @@ class Book(object):
         self.csvfile = r'C:\Users\Tony\Desktop\Data sets\Books.csv'
        
     def what_book(self):
-        with open(self.csv, 'rt') as f:
+        with open(self.csvfile, 'rt') as f:
             reader = csv.DictReader(f)
             rows = [row for row in reader if row['status'] == 'to read'.lower()]
-            x = ''        
-            for row in rows:
-                x = x + row['title']+ ' ' + 'by' + ' ' + row['author']+'\n'+'\n'
-            return random.choice(rows)          
+            book_choice = random.chocie(rows)
+            suggestion = {k: book_choice[k] for k in book_choice.keys() & {'title', 'author'}}
+            
+            return suggestion
             
 NextBook = Book()
 
