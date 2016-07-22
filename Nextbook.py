@@ -14,22 +14,15 @@ class Book(object):
     def __init__(self):
         self.csvfile = r'C:\Users\Tony\Desktop\Data sets\Books.csv'
        
-
     def what_book(self):
-        
-      
-      with open(r'C:\Users\Tony\Desktop\Data sets\Books.csv', 'rt') as f:
-          reader = csv.DictReader(f)
-          rows = [row for row in reader if row['status'] == 'to read'.lower()]
-          x = ''        
-          for row in rows:
-              x = x + row['title']+ ' ' + 'by' + ' ' + row['author']+'\n'+'\n'
-          return random.choice(x)          
-          f.close()
-      
-          
-          
-
+        with open(self.csv, 'rt') as f:
+            reader = csv.DictReader(f)
+            rows = [row for row in reader if row['status'] == 'to read'.lower()]
+            x = ''        
+            for row in rows:
+                x = x + row['title']+ ' ' + 'by' + ' ' + row['author']+'\n'+'\n'
+            return random.choice(rows)          
+            
 NextBook = Book()
 
 if __name__ == '__main__':
