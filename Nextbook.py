@@ -21,7 +21,7 @@ class Book(object):
             book_choice = random.chocie(rows)
             suggestion = {k: book_choice[k] for k in book_choice.keys() & {'title', 'author'}}
             
-            return suggestion
+            return '{title} by {author}'.format(**suggestion)
             
 NextBook = Book()
 
