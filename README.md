@@ -28,6 +28,6 @@ Nextbook will let you take a csv file of your personal library and suggest the n
 * Add feature selection
 * "Add new book" feature
 * NextBook version 2:
-  * Select a book from pool of least reader
+  * Select a book from pool of least read
 * Support Goodreads library file
 * Goodreads API integration

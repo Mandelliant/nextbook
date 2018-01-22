@@ -28,12 +28,16 @@ NextBook = Book()
 
 if __name__ == '__main__':
   while True:
-    user_input = input("Do you need a book recommendation? Yes or no: ").lower()
+    user_input = input("Do you need a book suggestion? Yes or no: ").lower()
     if user_input == 'yes':
         print(NextBook.what_book())
 
+
     elif user_input == 'no':
         break
+    print()
+    print("What would you like to do?")
+    print() #Eventually print list of other features
 
     elif user_input == 'end'.lower():
         break
