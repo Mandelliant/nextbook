@@ -24,6 +24,32 @@ class Book(object):
 
             return '{title} by {author}'.format(**suggestion)
 
+    def add_book(self):
+        with open(self.csvfile, 'wt', newline='') as f:
+
+
+
+        #Return 'added [title] by [author] to the library'
+
+NewBook = Book()
+
+if __name__ == '__main__':
+  while True:
+    print("Add a new book to the library:")
+    print()
+    new_book_title = nbt
+    nbt = input("Title").title()
+    author = input("Author").title()
+
+
+    print(nbt "by" author)
+
+
+
+
+
+
+
 NextBook = Book()
 
 if __name__ == '__main__':
