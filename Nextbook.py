@@ -13,7 +13,7 @@ import random
 class Book(object):
 
     def __init__(self):
-        self.csvfile = r'/Users/anthonymandelli/Repos/nextbook/Books.csv'
+        self.csvfile = r'/Code files/Nextbook/library.csv'
 
     def what_book(self):
         with open(self.csvfile, 'rt') as f:
