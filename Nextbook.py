@@ -34,11 +34,14 @@ class Book(object):
 
 
 
+
+
+
 NewBook = Book()
 
 if __name__ == '__main__':
   while True:
-    print("Add a new book to the library:")
+    print("\n Add a new book to the library:")
     print()
 
     nbt = input("Title: ").title()
@@ -54,7 +57,7 @@ NextBook = Book()
 
 if __name__ == '__main__':
   while True:
-    user_input = input("Do you need a book suggestion? Yes or no: ").lower()
+    user_input = input("\n Do you need a book suggestion? Yes or no: ").lower()
     if user_input == 'yes':
         print(NextBook.what_book())
 
@@ -67,3 +70,4 @@ if __name__ == '__main__':
       print("Let's try something else, shall we?")
       print()
       break
+      #Return to menu
