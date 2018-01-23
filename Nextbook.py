@@ -24,12 +24,15 @@ class Book(object):
 
             return '{title} by {author}'.format(**suggestion)
 
+
+"""
     def add_book(self):
         with open(self.csvfile, 'wt', newline='') as f:
-
-
-
+"""
+        #Disabled while developing function
         #Return 'added [title] by [author] to the library'
+
+
 
 NewBook = Book()
 
@@ -37,17 +40,14 @@ if __name__ == '__main__':
   while True:
     print("Add a new book to the library:")
     print()
-    new_book_title = nbt
-    nbt = input("Title").title()
-    author = input("Author").title()
 
+    nbt = input("Title: ").title()
+    author = input("Author: ").title()
+    newbook = '{} by {}'.format(nbt, author)
 
-    print(nbt "by" author)
-
-
-
-
-
+    print()
+    print("Added {}".format(newbook))
+    break
 
 
 NextBook = Book()
@@ -59,12 +59,6 @@ if __name__ == '__main__':
         print(NextBook.what_book())
 
 
-    elif user_input == 'no':
-        break
-    print()
-    print("What would you like to do?")
-    print() #Eventually print list of other features
-
     elif user_input == 'end'.lower():
         break
 
@@ -72,3 +66,4 @@ if __name__ == '__main__':
       print()
       print("Let's try something else, shall we?")
       print()
+      break
