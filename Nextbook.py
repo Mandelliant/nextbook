@@ -13,7 +13,7 @@ import random
 class Book(object):
 
     def __init__(self):
-        self.csvfile = r'/Code files/Nextbook/library.csv'
+        self.csvfile = r'/Users/anthonymandelli/Repos/nextbook/Books.csv'
 
     def what_book(self):
         with open(self.csvfile, 'rt') as f:
@@ -25,13 +25,20 @@ class Book(object):
             return '{title} by {author}'.format(**suggestion)
 
 
-"""
+#stuck on writing to appropriate columns
     def add_book(self):
-        with open(self.csvfile, 'wt', newline='') as f:
-"""
-        #Disabled while developing function
-        #Return 'added [title] by [author] to the library'
+        #with open(self.csvfile, 'ab', newline='') as library:
+        with open(self.csvfile, 'ab') as library:
+            writer = csv.writer(library, delimiter=',')
+            columns = [column for column in writer if column == 'title'.lower()]
 
+            writer.writerows(zip(nbt, author)
+
+            #['X', nbt, author])
+
+            #return NewBook.add_book()
+
+            return "Added {}".format(newbook)
 
 
 
@@ -41,15 +48,17 @@ NewBook = Book()
 
 if __name__ == '__main__':
   while True:
-    print("\n Add a new book to the library:")
+    print("\nAdd a new book to the library:")
     print()
 
-    nbt = input("Title: ").title()
-    author = input("Author: ").title()
+    nbt = [input("Title: ").title()]
+    author = [input("Author: ").title()]
     newbook = '{} by {}'.format(nbt, author)
 
+
     print()
-    print("Added {}".format(newbook))
+    print(NewBook.add_book())
+    #print("Added {}".format(newbook))
     break
 
 
@@ -57,7 +66,7 @@ NextBook = Book()
 
 if __name__ == '__main__':
   while True:
-    user_input = input("\n Do you need a book suggestion? Yes or no: ").lower()
+    user_input = input("\nDo you need a book suggestion? Yes or no: ").lower()
     if user_input == 'yes':
         print(NextBook.what_book())
 
@@ -71,3 +80,7 @@ if __name__ == '__main__':
       print()
       break
       #Return to menu
+
+
+#changed file path
+#fixed \n formatting
