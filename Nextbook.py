@@ -30,7 +30,9 @@ class Book(object):
         #with open(self.csvfile, 'ab', newline='') as library:
         with open(self.csvfile, 'ab') as library:
             writer = csv.writer(library, delimiter=',')
-            columns = [column for column in writer if column == 'title'.lower()]
+            tcolumn = [column for column in writer if column == 'title'.lower()]
+
+            acolumn = [column for column in writer if column == 'author'.lower()]
 
             writer.writerows(zip(nbt, author)
 
@@ -39,9 +41,6 @@ class Book(object):
             #return NewBook.add_book()
 
             return "Added {}".format(newbook)
-
-
-
 
 
 NewBook = Book()
