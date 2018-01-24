@@ -24,20 +24,52 @@ class Book(object):
 
             return '{title} by {author}'.format(**suggestion)
 
+
+#stuck on writing to appropriate columns
+    def add_book(self):
+        #with open(self.csvfile, 'ab', newline='') as library:
+        with open(self.csvfile, 'ab') as library:
+            writer = csv.writer(library, delimiter=',')
+            columns = [column for column in writer if column == 'title'.lower()]
+
+            writer.writerows(zip(nbt, author)
+
+            #['X', nbt, author])
+
+            #return NewBook.add_book()
+
+            return "Added {}".format(newbook)
+
+
+
+
+
+NewBook = Book()
+
+if __name__ == '__main__':
+  while True:
+    print("\nAdd a new book to the library:")
+    print()
+
+    nbt = [input("Title: ").title()]
+    author = [input("Author: ").title()]
+    newbook = '{} by {}'.format(nbt, author)
+
+
+    print()
+    print(NewBook.add_book())
+    #print("Added {}".format(newbook))
+    break
+
+
 NextBook = Book()
 
 if __name__ == '__main__':
   while True:
-    user_input = input("Do you need a book suggestion? Yes or no: ").lower()
+    user_input = input("\nDo you need a book suggestion? Yes or no: ").lower()
     if user_input == 'yes':
         print(NextBook.what_book())
 
-
-    elif user_input == 'no':
-        break
-    print()
-    print("What would you like to do?")
-    print() #Eventually print list of other features
 
     elif user_input == 'end'.lower():
         break
@@ -46,3 +78,9 @@ if __name__ == '__main__':
       print()
       print("Let's try something else, shall we?")
       print()
+      break
+      #Return to menu
+
+
+#changed file path
+#fixed \n formatting

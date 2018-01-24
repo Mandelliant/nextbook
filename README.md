@@ -30,4 +30,6 @@ Nextbook will let you take a csv file of your personal library and suggest the n
 * NextBook version 2:
   * Select a book from pool of least read
 * Support Goodreads library file
+* "Remove book" feature
+* Migrate CSV file to sqlite or other DB
 * Goodreads API integration
