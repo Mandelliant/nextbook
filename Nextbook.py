@@ -45,7 +45,6 @@ NewBook = Book()
 
 if __name__ == '__main__':
   while True:
-    print()
     print("\nAdd a new book to the library:")
     print()
 
