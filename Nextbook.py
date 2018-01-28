@@ -26,19 +26,15 @@ class Book(object):
 
 
 #stuck on writing to appropriate columns
-    def add_book(self):
-        #with open(self.csvfile, 'ab', newline='') as library:
-        with open(self.csvfile, 'ab') as library:
+    def add_book(self, nbt1, author1):
+
+        fields =['',nbt1,author1]
+
+        with open(self.csvfile, 'a', newline='') as library:
+
             writer = csv.writer(library, delimiter=',')
-            tcolumn = [column for column in writer if column == 'title'.lower()]
 
-            acolumn = [column for column in writer if column == 'author'.lower()]
-
-            writer.writerows(zip(nbt, author)
-
-            #['X', nbt, author])
-
-            #return NewBook.add_book()
+            writer.writerow(fields)
 
             return "Added {}".format(newbook)
 
@@ -50,8 +46,8 @@ if __name__ == '__main__':
     print("\nAdd a new book to the library:")
     print()
 
-    nbt = [input("Title: ").title()]
-    author = [input("Author: ").title()]
+    nbt = input("Title: ").title()
+    author = input("Author: ").title()
     newbook = '{} by {}'.format(nbt, author)
 
 
@@ -60,13 +56,13 @@ if __name__ == '__main__':
     #print("Added {}".format(newbook))
     break
 
-
 NextBook = Book()
 
 if __name__ == '__main__':
   while True:
     user_input = input("\nDo you need a book suggestion? Yes or no: ").lower()
     if user_input == 'yes':
+        print()
         print(NextBook.what_book())
 
 
