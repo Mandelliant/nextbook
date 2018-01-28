@@ -30,6 +30,8 @@ class Book(object):
 
         fields =['',nbt1,author1]
 
+        #with open csv, read, find value in first colum, store as a variable, and increment for each book added
+
         with open(self.csvfile, 'a', newline='') as library:
 
             writer = csv.writer(library, delimiter=',')
