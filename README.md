@@ -10,15 +10,13 @@ Nextbook will let you take a csv file of your personal library and suggest the n
 * Defined class `Book`
 * Outlined first function `NextBook = Book()`
 
+
+<h2>Current version</h2>
+
 **0.2.0**
 * Cleaning up code formatting
 * New file paths
 * Updated README
-
-<h2>Current version</h2>
-
-**0.2.1**
-* Add book feature now available
 
 
 <h2>Roadmap</h2
@@ -28,11 +26,10 @@ Nextbook will let you take a csv file of your personal library and suggest the n
 * Optimize NextBook function
 * "Mark book as read" feature
 * Add feature selection
-* Django build
+* "Add new book" feature
 * NextBook version 2:
   * Select a book from pool of least read
-  * Support Goodreads library file
-  * "Remove book" feature
-* Future versions:
-  * Migrate CSV file to sqlite or other DB
-  * Goodreads API integration
+* Support Goodreads library file
+* "Remove book" feature
+* Migrate CSV file to sqlite or other DB
+* Goodreads API integration
