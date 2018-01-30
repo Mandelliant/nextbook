@@ -24,19 +24,27 @@ class Book(object):
 
             return '{title} by {author}'.format(**suggestion)
 
+    def book_line(self):
 
-#stuck on writing to appropriate columns
+        with open(self.csvfile, 'r', newline='') as library:
+
+            line_number = len(library.readlines())
+
+            new_book_id = int(line_number)
+
+            return new_book_id
+
     def add_book(self, nbt1, author1):
 
-        fields =['',nbt1,author1]
-
-        #with open csv, read, find value in first colum, store as a variable, and increment for each book added
+        fields =[nbt1,author1]
 
         with open(self.csvfile, 'a', newline='') as library:
 
             writer = csv.writer(library, delimiter=',')
 
-            writer.writerow(fields)
+            line_number = Book.book_line(self)
+
+            writer.writerow([line_number] + fields)
 
             return "Added {}".format(newbook)
 
@@ -54,7 +62,7 @@ if __name__ == '__main__':
 
 
     print()
-    print(NewBook.add_book())
+    print(NewBook.add_book(nbt, author))
     #print("Added {}".format(newbook))
     break
 
