@@ -3,6 +3,14 @@ Randomly recommends a book to read based on a csv database
 
 Nextbook will let you take a csv file of your personal library and suggest the next book you should read.
 
+<h2>Current version</h2>
+
+**0.5.0**
+* Rearranged code to be modular
+* Added main menu
+* Added setup.py
+* Added requirements.txt
+
 
 <h2>Previous versions</h2>
 
@@ -16,16 +24,8 @@ Nextbook will let you take a csv file of your personal library and suggest the n
 * Updated README
 
 
-<h2>Current version</h2>
-
-**0.5.0**
-* Rearranged code to be modular
-* Added main menu
-* Added setup.py
-* Added requirements.txt
-
-
 <h2>Roadmap</h2
+
 
 **Projects**
 
