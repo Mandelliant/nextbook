@@ -10,7 +10,7 @@ Updated Nextbook
 import csv
 import random
 
-class Book(object):
+class Book:
 
     def __init__(self):
         self.csvfile = r'/Users/anthonymandelli/Repos/nextbook/Nextbook/Books.csv'

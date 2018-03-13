@@ -22,7 +22,6 @@ if __name__ == '__main__':
 
 
         if selection == 1:
-            addedbook = Book.add_book(nbt, author)
 
             print("\nAdd a new book to the library:")
             print()
@@ -33,7 +32,7 @@ if __name__ == '__main__':
 
 
             print()
-            print(addedbook)
+            print(Book.add_book(nbt, author))
             print('\nLibrary updated')
 
         elif selection == 2:
