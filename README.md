@@ -10,23 +10,29 @@ Nextbook will let you take a csv file of your personal library and suggest the n
 * Defined class `Book`
 * Outlined first function `NextBook = Book()`
 
-
-<h2>Current version</h2>
-
 **0.2.0**
 * Cleaning up code formatting
 * New file paths
 * Updated README
 
 
+<h2>Current version</h2>
+
+**0.5.0**
+* Rearranged code to be modular
+* Added main menu
+* Added setup.py
+* Added requirements.txt
+
+
 <h2>Roadmap</h2
 
 **Projects**
 
+* Add feature selection - WIP
+* "Add new book" feature - WIP
 * Optimize NextBook function
 * "Mark book as read" feature
-* Add feature selection
-* "Add new book" feature
 * NextBook version 2:
   * Select a book from pool of least read
 * Support Goodreads library file
