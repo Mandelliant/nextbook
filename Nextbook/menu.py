@@ -1,5 +1,7 @@
+import sys
+import os
 
-import book_packs.book_class
+from book_class import Book
 
 
 
@@ -20,6 +22,7 @@ if __name__ == '__main__':
 
 
         if selection == 1:
+            addedbook = Book.add_book(nbt, author)
 
             print("\nAdd a new book to the library:")
             print()
@@ -30,13 +33,14 @@ if __name__ == '__main__':
 
 
             print()
-            print(book_class.add_book(nbt, author))
+            print(addedbook)
             print('\nLibrary updated')
 
         elif selection == 2:
+            suggestion = Book.what_book()
 
 
-            print(book_class.what_book())
+            print(suggestion)
 
         elif selection == 3:
             break
