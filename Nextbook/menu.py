@@ -30,7 +30,6 @@ if __name__ == '__main__':
             author = input("Author: ").title()
             newbook = '{} by {}'.format(nbt, author)
 
-
             print()
             print(Book.add_book(nbt, author))
             print('\nLibrary updated')
@@ -45,5 +44,5 @@ if __name__ == '__main__':
             break
 
         else:
-            print('Please choose 1 or 2')
+            print('\nPlease choose 1 or 2')
             print()

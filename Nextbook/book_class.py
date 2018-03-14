@@ -34,9 +34,9 @@ class Book:
 
             return new_book_id
 
-    def add_book(self, nbt1, author1):
+    def add_book(nbt, author):
 
-        fields = [nbt1, author1]
+        fields = [nbt, author]
 
         with open(self.csvfile, 'a', newline='') as library:
 
