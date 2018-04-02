@@ -34,7 +34,7 @@ class Book:
 
             return new_book_id
 
-    def add_book(nbt, author):
+    def add_book(self, nbt, author):
 
         fields = [nbt, author]
 

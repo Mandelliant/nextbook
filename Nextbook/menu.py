@@ -31,14 +31,15 @@ if __name__ == '__main__':
             newbook = '{} by {}'.format(nbt, author)
 
             print()
-            print(Book.add_book(nbt, author))
+            print(Book.add_book())
             print('\nLibrary updated')
 
         elif selection == 2:
-            suggestion = Book.what_book()
 
-
-            print(suggestion)
+            suggestion = Book()
+            print()
+            print(suggestion.what_book())
+            print()
 
         elif selection == 3:
             break
