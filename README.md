@@ -13,12 +13,6 @@ Nextbook will let you take a csv file of your personal library and suggest the n
 
 <h2>Previous versions</h2>
 
-**0.5.0**
-* Rearranged code to be modular
-* Added main menu
-* Added setup.py
-* Added requirements.txt
-
 **0.1.0**
 * Defined class `Book`
 * Outlined first function `NextBook = Book()`
@@ -28,11 +22,14 @@ Nextbook will let you take a csv file of your personal library and suggest the n
 * New file paths
 * Updated README
 
-<h2>Current version</h2>
-
 **0.2.1**
 * Add new book feature now available
 
+**0.5.0**
+* Rearranged code to be modular
+* Added main menu
+* Added setup.py
+* Added requirements.txt
 
 <h2>Roadmap</h2
 
