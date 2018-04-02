@@ -34,6 +34,7 @@ if __name__ == '__main__':
             print()
             print(new_title.add_book(nbt, author))
             print('\nLibrary updated')
+            print()
 
         elif selection == 2:
 
