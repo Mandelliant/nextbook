@@ -5,14 +5,19 @@ Nextbook will let you take a csv file of your personal library and suggest the n
 
 <h2>Current version</h2>
 
+**1.0.0**
+* Working modular code
+* Functioning menu
+* Add book and reading suggestion features functioning
+
+
+<h2>Previous versions</h2>
+
 **0.5.0**
 * Rearranged code to be modular
 * Added main menu
 * Added setup.py
 * Added requirements.txt
-
-
-<h2>Previous versions</h2>
 
 **0.1.0**
 * Defined class `Book`
