@@ -46,4 +46,6 @@ class Book:
 
             writer.writerow([line_number] + fields)
 
+            newbook = '{} by {}'.format(nbt, author)
+
             return "Added {}".format(newbook)

@@ -23,15 +23,16 @@ if __name__ == '__main__':
 
         if selection == 1:
 
+            new_title = Book()
+
             print("\nAdd a new book to the library:")
             print()
 
             nbt = input("Title: ").title()
             author = input("Author: ").title()
-            newbook = '{} by {}'.format(nbt, author)
 
             print()
-            print(Book.add_book())
+            print(new_title.add_book(nbt, author))
             print('\nLibrary updated')
 
         elif selection == 2:
